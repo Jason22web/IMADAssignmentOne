@@ -27,12 +27,20 @@ of having to decide for yourself or how to reach out
  - Version Control : Github
  - CI/CD Github Actions
 
+
 🔧🔨 **TEchnical Implementation**
  - if else statements are used to map user inputs 
  - I used a constrained layout for a more modern UI design (linear layout isnt flexible like constraint layou)
 
 
+<img width="638" height="1101" alt="Screenshot 2026-03-30 010538" src="https://github.com/user-attachments/assets/03cca1d2-0082-4894-9bb2-f48c2b5c39ce" />
+<img width="645" height="1104" alt="Screenshot 2026-03-30 010508" src="https://github.com/user-attachments/assets/9543b254-a254-4509-8f39-aa48fe9a6a91" />
+<img width="644" height="1106" alt="Screenshot 2026-03-30 010449" src="https://github.com/user-attachments/assets/015e6603-8cc6-4d85-ad5f-a15624b7d6c1" />
+<img width="643" height="1107" alt="Screenshot 2026-03-30 010425" src="https://github.com/user-attachments/assets/b1818121-56d3-4e8b-bdef-372340716de6" />
+<img width="638" height="1101" alt="Screenshot 2026-03-30 010538" src="https://github.com/user-attachments/assets/bb4b9318-12ad-463a-a3a6-cc125c00cb90" />
 
 
- 
-  
+
+
+
+
