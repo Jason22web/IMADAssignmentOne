@@ -6,3 +6,5 @@ The app should give suggestions based on the time of day entered being either mo
 
 I will be using buttons one to reset and one to display the suggestion and I will add a image as the background.
 
+I have commited my First commit i have declared my variables and done the basic layout on my apps interface 
+giving my app a background which is an AI generated image, and basic layout design done 
