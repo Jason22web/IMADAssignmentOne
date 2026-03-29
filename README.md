@@ -16,7 +16,7 @@ By providing curated suggestions like sending a quick "thank you" or sharing a m
 of having to decide for yourself or how to reach out
 
 😎**Features**
-- Suggestions based of off time of day entered
+- Suggestions based off of the time of day entered
 - Intuitive and clean UI that is clear and responsive
 - Error handling messages incase the user gives an unrecognized response
 - Rest functionality making it easier to clear the screen
@@ -26,6 +26,12 @@ of having to decide for yourself or how to reach out
  - Platform : Android Studio
  - Version Control : Github
  - CI/CD Github Actions
+
+🔧🔨 **TEchnical Implementation**
+ - if else statements are used to map user inputs 
+ - I used a constrained layout for a more modern UI design (linear layout isnt flexible like constraint layou)
+
+
 
 
  
