@@ -17,13 +17,13 @@ class MainActivity : AppCompatActivity() {
 
 
         /*Declarations of variable for my app. this is the 1st major step I have taken into building the
-application for IMAD5112 assessment */
+application for IMAD5112 assignment */
 
 //on my layout page I have to finish labeling and adding more to the interface
 
         val enterTimeOfDayButton = findViewById<Button>(R.id.btnEnterTimeOfDay)
         val resetButton = findViewById<Button>(R.id.ResetBtn)
-        val theSuggesting = findViewById<TextView>(R.id.SuggestingText)
+        val theSuggestion = findViewById<TextView>(R.id.SuggestingText)
         val inputText = findViewById<EditText>(R.id.InputText)
 
         enterTimeOfDayButton.setOnClickListener {
@@ -32,5 +32,5 @@ application for IMAD5112 assessment */
 
         }
     }
-}
+
 

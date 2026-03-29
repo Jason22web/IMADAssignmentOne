@@ -6,42 +6,45 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#eff5ed">
+    android:background="#615f5f">
 
+    <!--Background image-->
     <ImageView
         android:id="@+id/Background"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:alpha="0.8"
-        android:contentDescription="VisualsOfDayNightCycle"
+        android:alpha="0.85"
+        android:contentDescription="visualsofdaynightcycle"
         android:scaleType="centerCrop"
         android:src="@drawable/daynight"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:layout_contraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"/>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/GreetingTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello Cora!"
+        android:text="@string/hello_cora"
         android:textColor="@color/black"
         android:textStyle="bold"
-        android:textSize="50dp"
+        android:textSize="50sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.42" />
 
+    <!--Enter button-->
     <Button
         android:id="@+id/btnEnterTimeOfDay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="!THIS BUTTON NEEDS TO BE WHITE"
-        android:textColor="#eff5ed"
+        android:text="Enter"
+        android:textColor="#080707"
+        android:backgroundTint="#fcfafa"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.267"
@@ -49,12 +52,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.625" />
 
+    <!--Reset button-->
     <Button
         android:id="@+id/ResetBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="!THIS BUTTON NEEDS TO BE RED"
-        android:textColor="#ff0000"
+        android:text="Reset"
+        android:textColor="#fcfafa"
+        android:backgroundTint="#080707"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.763"
@@ -62,40 +67,58 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.625" />
 
+    <!--title of the app-->
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/appName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Your social suggestions"
-        android:textSize="30dp"
+        android:fontFamily="sans-serif-medium"
+        android:letterSpacing="0.3"
+        android:textAllCaps="true"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:shadowColor="#5e5a02"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="6"
+        android:text="Huddle"
+        android:textColor="#121103"
+        android:textSize="30sp"
         android:textStyle="bold"
-        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.50"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.33" />
+        app:layout_constraintVertical_bias="0.148" />
 
+    <!--input text-->
     <EditText
         android:id="@+id/InputText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="40sp"
-        android:ems="10"
+        android:textSize="25sp"
+        android:textColorHint="#121103"
         android:inputType="text"
-        android:hint="@string/whats_it_right_now"
+        android:fontFamily="sans-serif-medium"
+        android:padding="12dp"
+        android:textStyle="bold"
+        android:letterSpacing="0.01"
+        android:hint="input the time of day"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.534" />
 
+
+    <!--Result appears here-->
     <TextView
         android:id="@+id/SuggestingText"
-        android:layout_width="173dp"
-        android:layout_height="101dp"
-        android:text="@string/textview"
+        android:layout_width="275dp"
+        android:layout_height="120dp"
+        android:text="Suggestions Show here"
+        android:textColor="#0f0101"
+        android:textSize="25sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
