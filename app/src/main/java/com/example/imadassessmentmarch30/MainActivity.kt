@@ -27,18 +27,30 @@ application for IMAD5112 assignment */
 
         //this button will be used when entering the time of day on the app
 
+        //corrected the error by inputText
         enterTimeOfDayButton.setOnClickListener {
-            val input = enterTimeOfDayButton.text.toString().trim()
+            val input = inputText.text.toString().lowercase().trim()
 
             //these are the social suggestions
 
-            val message = when (input){
-                "morning"->"Lets try make someone laugh today"
-                "afternoon"->"like the late queen lets have tea and crumpets"
-                "evening"->"Maybe its time to go for a walk"
-                "night"->"Gotta make sure you've told your friends about your day"
-                "midnight"->"Nearly bed time call your closest friend and say goodnight"
-                else -> "Invalid Time of Day"
+            //If Else statements
+            val message = if (input == "morning") {
+                "Lets try make someone laugh today"
+            }else if (input =="afternoon") {
+                "like the late queen lets have tea and crumpets"
+            }else if (input =="evening" ) {
+                "Maybe it's time to go for a walk"
+            }else if (input =="night") {
+                "Gotta make sure you've told your friends about your day"
+            }else if (input == "midnight") {
+                "Nearly bed time, call your closest friends and say goodnight"
+            }else if (input =="game time") {
+                "Let's get on the game with the squad!"
+            }else if (input =="Diner time") {
+                "There's always a good recipe on Youtube."
+            }else {
+                //Constructive feedback for invalid input
+                "Did you mean to put (morning, diner time, game time etc?)"
             }
 
             theSuggestion.text=message
