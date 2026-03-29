@@ -35,18 +35,18 @@ application for IMAD5112 assignment */
 
             //If Else statements
             val message = if (input == "morning") {
-                "Lets try make someone laugh today"
+                "Send a 'Good morning' text to a family member"
             }else if (input =="afternoon") {
-                "like the late queen lets have tea and crumpets"
+                "Share a funny meme or interesting link with a friend"
             }else if (input =="evening" ) {
                 "Maybe it's time to go for a walk"
             }else if (input =="night") {
-                "Gotta make sure you've told your friends about your day"
+                "Leave a thoughtful comment on a friend's post."
             }else if (input == "midnight") {
                 "Nearly bed time, call your closest friends and say goodnight"
             }else if (input =="game time") {
                 "Let's get on the game with the squad!"
-            }else if (input =="Diner time") {
+            }else if (input =="dinner time") {
                 "There's always a good recipe on Youtube."
             }else {
                 //Constructive feedback for invalid input
