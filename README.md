@@ -1,10 +1,32 @@
 # IMADAssignmentOne
 This is for my IMAD5112 assignment which is due on the 30th of march 2026
+by Jason Lewis ST10507997 
 
-This is my social suggestions app which i have designed for a friend to help with social suggestions throughtout the day 
-The app should give suggestions based on the time of day entered being either morning, afternoon, night etc.
+🤖 ****Huddle*/: Social Suggestion App**
+Course: IMAD5112 Assignment 1
+developer: Jason Lewis ST10507997
+Version: 1.0
 
-I will be using buttons one to reset and one to display the suggestion and I will add a image as the background.
+🧐 **Purpose**
+The Huddle App was designed with a close friend at heart, who struggles with maintaining social connections, among other things
+during her busy day. This native Android application simplifies social interactions by suggesting small "sparks"-actionable social or solo tasks- 
+based on the specific time of day.
 
-I have commited my First commit i have declared my variables and done the basic layout on my apps interface 
-giving my app a background which is an AI generated image, and basic layout design done 
+By providing curated suggestions like sending a quick "thank you" or sharing a meme, the app helps users stay connected without the menatl fatigue 
+of having to decide for yourself or how to reach out
+
+😎**Features**
+- Suggestions based of off time of day entered
+- Intuitive and clean UI that is clear and responsive
+- Error handling messages incase the user gives an unrecognized response
+- Rest functionality making it easier to clear the screen
+
+ ❗❗ **Requirements**
+ - Language : Kotlin
+ - Platform : Android Studio
+ - Version Control : Github
+ - CI/CD Github Actions
+
+
+ 
+  
