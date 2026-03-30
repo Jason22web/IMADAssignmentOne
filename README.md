@@ -32,6 +32,9 @@ of having to decide for yourself or how to reach out
  - if else statements are used to map user inputs 
  - I used a constrained layout for a more modern UI design (linear layout isnt flexible like constraint layou)
 
+😒 **Github**
+i used github actions to automate my android builds, ensuring the code complies correctly on every push to the master branch
+
 
 <img width="638" height="1101" alt="Screenshot 2026-03-30 010538" src="https://github.com/user-attachments/assets/03cca1d2-0082-4894-9bb2-f48c2b5c39ce" />
 <img width="645" height="1104" alt="Screenshot 2026-03-30 010508" src="https://github.com/user-attachments/assets/9543b254-a254-4509-8f39-aa48fe9a6a91" />
