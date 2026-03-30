@@ -45,6 +45,7 @@ i used github actions to automate my android builds, ensuring the code complies 
 ChatGPT. 2026. Image used as background available at https://chatgpt.com/backend-api/estuary/content?id=file_000000003a04722f8791bb274b3c959d&ts=493009&p=fs&cid=1&sig=3566421922b361131bb17b2fbac277cd606c2999a85b11100997e0a03c3a3c67&v=0
 [Accessed 18 March 2026]
 
+Gemini 3 Flash(2026). Response to query regarding GitHub Actions Android CI workflow configurattion. [Generative] Available at https://gemini.google.com/app/2032420c8b6d2d17 [Accessed 30 march 2026]
 
 
 
