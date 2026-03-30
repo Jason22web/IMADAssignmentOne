@@ -42,6 +42,9 @@ i used github actions to automate my android builds, ensuring the code complies 
 <img width="643" height="1107" alt="Screenshot 2026-03-30 010425" src="https://github.com/user-attachments/assets/b1818121-56d3-4e8b-bdef-372340716de6" />
 <img width="638" height="1101" alt="Screenshot 2026-03-30 010538" src="https://github.com/user-attachments/assets/bb4b9318-12ad-463a-a3a6-cc125c00cb90" />
 
+ChatGPT. 2026. Image used as background available at https://chatgpt.com/backend-api/estuary/content?id=file_000000003a04722f8791bb274b3c959d&ts=493009&p=fs&cid=1&sig=3566421922b361131bb17b2fbac277cd606c2999a85b11100997e0a03c3a3c67&v=0
+[Accessed 18 March 2026]
+
 
 
 
