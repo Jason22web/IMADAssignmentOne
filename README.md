@@ -16,10 +16,10 @@ By providing curated suggestions like sending a quick "thank you" or sharing a m
 of having to decide for yourself or how to reach out
 
 😎**Features**
-- Suggestions based off of the time of day entered
-- Intuitive and clean UI that is clear and responsive
-- Error handling messages incase the user gives an unrecognized response
-- Rest functionality making it easier to clear the screen
+- Suggestions based on the time of day entered by the user
+- Simple and easy-to-use interface
+- Basic error handling for invalid input
+- Reset button to quickly clear the screen
 
  ❗❗ **Requirements**
  - Language : Kotlin
@@ -34,6 +34,16 @@ of having to decide for yourself or how to reach out
 
 😒 **Github**
 i used github actions to automate my android builds, ensuring the code complies correctly on every push to the master branch
+
+🎀🎟️**Note on CI**
+
+The CI pipeline:
+
+- Checks out the code
+- Sets up JDK 17
+- Builds the project using Gradle
+
+This ensures that every update to the repository is tested automatically.
 
 
 <img width="638" height="1101" alt="Screenshot 2026-03-30 010538" src="https://github.com/user-attachments/assets/03cca1d2-0082-4894-9bb2-f48c2b5c39ce" />
