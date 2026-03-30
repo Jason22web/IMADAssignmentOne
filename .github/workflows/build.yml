@@ -25,3 +25,9 @@ jobs:
 
       - name: Build with Gradle
         run: ./gradlew assembleDebug
+
+
+        #code generated/assisted by Gemini 3 Flash
+        #prompts used "what does this error mean"
+        #Assisted in troubleshooting Githu Actions Branch mismatches and errors
+        
