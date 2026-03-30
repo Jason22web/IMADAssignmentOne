@@ -4,7 +4,7 @@ by Jason Lewis ST10507997
 
 🤖 ****Huddle*/: Social Suggestion App**
 **Course**: IMAD5112 Assignment 1
-**eveloper**: Jason Lewis ST10507997
+**Developer**: Jason Lewis ST10507997
 **Version**: 1.0
 
 🧐 **Purpose**
