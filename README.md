@@ -3,9 +3,9 @@ This is for my IMAD5112 assignment which is due on the 30th of march 2026
 by Jason Lewis ST10507997 
 
 🤖 ****Huddle*/: Social Suggestion App**
-Course: IMAD5112 Assignment 1
-developer: Jason Lewis ST10507997
-Version: 1.0
+**Course**: IMAD5112 Assignment 1
+**eveloper**: Jason Lewis ST10507997
+**Version**: 1.0
 
 🧐 **Purpose**
 The Huddle App was designed with a close friend at heart, who struggles with maintaining social connections, among other things
